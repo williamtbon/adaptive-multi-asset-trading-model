@@ -1,0 +1,9 @@
+numpy
+pandas
+requests
+rich
+yfinance
+polygon-api-client
+openai
+lightgbm
+optuna
