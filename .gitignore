@@ -1,3 +1,38 @@
+# =========================
+# Secrets / API keys
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Model state / live trading state
+# =========================
+model_state*.json
+*_state.json
+*_ml.json
+*_lgb.txt
+
+# =========================
+# Logs / trading records
+# =========================
+*.log
+logs/
+telemetry*.csv
+trades*.csv
+orders*.csv
+fills*.csv
+positions*.csv
+performance*.csv
+
+# =========================
+# Market data cache
+# =========================
+.price_cache/
+price_cache/
+cache/
+*.parquet
+*.feather
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
